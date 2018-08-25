@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_maps"
+        android:title="Maps"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_notes"
+        android:title="Notes"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_faq"
+        android:title="FAQs"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_contact_us"
+        android:title="Contact Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="Refresh"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_rooms"
+        android:icon="@drawable/ic_bed"
+        android:title="Rooms"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+</menu>
